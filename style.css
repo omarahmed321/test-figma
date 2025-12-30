@@ -17,6 +17,15 @@ main {
   display:flex;
   flex-direction: row;
 }
+    img{
+    width: 587px;
+height: 391px;
+
+
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+
+  }
 aside {
   background-color: #fffffc;
   width: 461px;
@@ -32,15 +41,7 @@ aside {
   padding: 50px;
   display: flex;
   flex-direction: column;
-    img{
-    width: 587px;
-height: 391px;
 
-
-border-top-right-radius: 8px;
-border-bottom-right-radius: 8px;
-
-  }
   h1 {
     font-family: Barlow;
     font-weight: 600;
