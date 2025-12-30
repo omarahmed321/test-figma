@@ -1,44 +1,117 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-display:flex;
-justify-content:center;
-height:100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
 }
-main{
-    width: 1048px;
+
+main {
+  width: 1048px;
+  height: 391px;
+  display:flex;
+  flex-direction: row;
+}
+aside {
+  background-color: #fffffc;
+  width: 461px;
+  height: 391px;
+  /* gap: 35px; */
+  border: 1px solid #bbd0ff;
+
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+    img{
+    width: 587px;
 height: 391px;
-margin:auto auto;
-border:1px solid #BBD0FF;
-border-top-left-radius: 8px;
-border-bottom-left-radius: 8px;
-/* border-top:1px;
-border-bottom:1px;
-border-left:1px; */
-}
-
-aside{
-    width: 461px;
-height: 391px;
-gap: 35px;
-background-color: #FFFFFC;
 
 
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
 
+  }
+  h1 {
+    font-family: Barlow;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 32px;
+    color: #1576d6;
 
-padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+  }
+  label {
+    width: 110px;
+    height: 19px;
+    font-family: Barlow;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #25292c;
+    text-transform: capitalize;
+  }
+  input {
+    width: 361px;
+    height: 50px;
+    border-radius: 12px;
 
-border-right-width: 0px;
-border-top-width: 1px;
-border-left-width: 1px;
-border-bottom-width: 1px;
+    border: 1px solid #6c757d80;
 
-border-style: solid;
-border-color: #BBD0FF;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+  }
+  #calc{
+    font-family: Barlow;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    background-color: #25292c;
+    color: #fffffc;
+    vertical-align: middle;
+    text-transform: capitalize;
+    width: 361px;
+    height: 50px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+  }
+  #degree {
+    font-family: Barlow;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    color: #25292c;
+    vertical-align: middle;
+    text-transform: capitalize;
+    width: 361px;
+    height: 50px;
+    border-radius: 12px;
+    border-width: 1px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    border: 1px dotted #F4C123;
 
-
+  }
 
 }
